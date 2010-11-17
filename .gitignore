@@ -1,4 +1,6 @@
-.DS_Stora?
+.DS_Store?
 .classpath
 .project
-.settings?
+.settings/
+target/
+
