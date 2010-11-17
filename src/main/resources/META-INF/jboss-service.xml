@@ -2,7 +2,7 @@
 <server>
     <mbean code="org.drools.brmspropertiesservice.BRMSPropertiesService" 
            name="BRMSProperties:service=BRMSProperties">
-        <attribute name="BrmsPropertiesFilename">brms_encrypted_properties.properties</attribute>	
+        <attribute name="BrmsPropertiesFilename">brms_encrypted_properties.properties</attribute>
         <depends>jboss.web:service=WebServer</depends>	
     </mbean>
 </server>
